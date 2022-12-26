@@ -1,6 +1,6 @@
 package com.company;
 
-public class Longest_Common_Prefix {
+public class Longest_Common_Prefix_ {
     public static void main(String[] args) {
         String[] strs = {"abcde", "abcde", "abcde"};
 
