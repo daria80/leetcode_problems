@@ -2,7 +2,7 @@ package com.company;
 
 public class Longest_Common_Prefix_ {
     public static void main(String[] args) {
-        String[] strs = {"abcde", "abcde", "abcde"};
+        String[] strs = {"abcde", "abcdef", "abcde"};
 
         lcp(strs);
         System.out.println(lcp(strs));
