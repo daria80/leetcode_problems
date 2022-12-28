@@ -1,16 +1,15 @@
 package algorithms;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class BubbleSortingAsc {
+public class BubbleSortDesc {
     public static void main(String[] args) {
-        int[] array = new int[] {5,4,3,2,1};
+        int[] array = new int[]{1, 2, 3, 4, 5};
         boolean isSorted = false;
         while (!isSorted) {
             isSorted = true;
             for (int i = 1; i < array.length; i++) {
-                if (array[i] < array[i - 1]) {
+                if (array[i] > array[i - 1]) {
                     int temp = array[i];
                     array[i] = array[i - 1];
                     array[i - 1] = temp;

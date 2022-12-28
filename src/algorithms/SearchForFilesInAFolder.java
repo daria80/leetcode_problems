@@ -9,7 +9,7 @@ public class SearchForFilesInAFolder {
         List<File> fileList = new ArrayList<>();
         searchFiles(new File("/Users/darasmirnova/Desktop/java"),fileList);
         for (File file: fileList) {
-            System.out.println(file);
+            System.out.println(file.getAbsolutePath());
         }
     }
 
