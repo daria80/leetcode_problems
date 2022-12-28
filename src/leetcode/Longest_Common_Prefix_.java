@@ -1,4 +1,4 @@
-package com.company;
+package leetcode;
 
 public class Longest_Common_Prefix_ {
     public static void main(String[] args) {
