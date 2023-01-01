@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class QuickSort {
     public static void main(String[] args) {
 
-        int [] array = new int[] {64, 42, 73, 41, 32, 53, 16, 24, 57, 42, 74, 55, 36};
+        int[] array = new int[]{64, 42, 73, 41, 32, 53, 16, 24, 57, 42, 74, 55, 36};
         System.out.println(Arrays.toString(array));
         quickSort(array, 0, array.length - 1);
         System.out.println(Arrays.toString(array));
@@ -49,7 +49,7 @@ public class QuickSort {
     }
 
     private static void swap(int[] array, int index1, int index2) {
-        int tmp  = array[index1];
+        int tmp = array[index1];
         array[index1] = array[index2];
         array[index2] = tmp;
     }
